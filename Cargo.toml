@@ -1,9 +1,28 @@
 [package]
+
 name = "rust-sgx-sqlite3"
 version = "0.1.0"
-authors = ["webb.shi <bradyjoestar@gmail.com>"]
-edition = "2018"
+authors = [
+  "Webb shi <bradyjoestar@gmail.com>"
+]
+keywords = ["database", "sql", "sqlite", "sgx"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+exclude = [
+    ".hg/*",
+    "*.orig",
+    "*~",
+]
+
+description = "Rustic bindings for sqlite3"
+repository = "https://github.com/bradyjoestar/rust-sgx-sqlite3"
+readme = "README.md"
+license = "MIT"
+
+[lib]
+name = "sgxsqlite3"
 
 [dependencies]
+bitflags = "^0.1.0"
+enum_primitive = "0.1.0"
+libc = "0.2.5"
+time = "^0.1.5"
