@@ -1,6 +1,6 @@
 # Rust-SGX-Sqlite3
 
-This crate is mainly porting the `Rust-sqlite` into `SGX`.It is a easier way than porting `Rusqlite`.
+This crate is mainly porting the `Rust-sqlite` into `SGX`.It is easier than porting `Rusqlite`.
 
 LICENSE: MIT. 
 
