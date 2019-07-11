@@ -19,8 +19,6 @@ Share and enjoy. LICENSE: MIT.
 
 ## Documentation, Status
 
-[View the documentation online][docs]
-
 Three layers of API are provided:
 
   - `mod ffi` provides exhaustive, though unsafe, [bindgen] bindings for `libsqlite.h`
