@@ -6,7 +6,7 @@
 //! [intro]: http://www.sqlite.org/cintro.html
 //!
 //! ```rust
-//! extern crate sqlite3;
+//! extern crate sgxsqlite3;
 //!
 //! use sqlite3::{
 //!     DatabaseConnection,

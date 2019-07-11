@@ -17,7 +17,7 @@
 //!
 //! ```rust
 //! extern crate time;
-//! extern crate sqlite3;
+//! extern crate sgxsqlite3;
 //!
 //! use time::Timespec;
 //!
