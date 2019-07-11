@@ -21,7 +21,7 @@ Share and enjoy. LICENSE: MIT.
 
 Three layers of API are provided:
 
-  - `mod ffi` provides exhaustive, though unsafe, [bindgen] bindings for `libsqlite.h`
+  - `mod ffi` provides exhaustive, though unsafe, `bindgen` bindings for `libsqlite.h`
   - `mod core` provides a minimal safe interface to the basic sqlite3 API
   - `mod types` provides `ToSql`/`FromSql` traits, and the library provides
     convenient `query()` and `update()` APIs.
@@ -30,8 +30,6 @@ The API design is perhaps stabilizing, though testing is uneven and I
 have not used the library beyond trivial integration tests.
 
 [docs]: http://dckc.github.io/rust-sqlite3
-[![Build Status](https://travis-ci.org/dckc/rust-sqlite3.svg?branch=master)](https://travis-ci.org/dckc/rust-sqlite3)
-
 ### TODO
 
   - another thorough read-through of the sqlite API intro,
